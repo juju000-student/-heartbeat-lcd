@@ -7,9 +7,17 @@ LCD 16x02의 **첫째 줄 첫 글자(0,0) 한 칸**에서 하트가 실제 심�
 가변저항을 올릴수록 심박수가 **40 → 180 BPM** 으로 빨라지고, 프로그램이 멈추면 심장도 멈춥니다.
 임베디드 시스템에서 "살아 있음"을 알리는 신호를 **하트비트(heartbeat)** 라고 부르는데, 그 이름을 그대로 눈에 보이게 만든 것입니다.
 
-| 시뮬레이션 (50 · 90 · 160 BPM) | 실제 동작 사진 |
-|:---:|:---:|
-| ![미리보기](docs/preview.gif) | ![데모 사진](docs/demo.jpg) |
+### 🎬 실제 동작 영상
+
+가변저항을 돌리면 심박수가 빨라지는 모습입니다.
+
+<video src="docs/demo.mp4" controls muted playsinline width="480"></video>
+
+영상이 재생되지 않으면 [여기를 눌러 직접 보기](docs/demo.mp4)
+
+### 시뮬레이션 (50 · 90 · 160 BPM)
+
+![미리보기](docs/preview.gif)
 
 ---
 
@@ -165,5 +173,5 @@ heartbeat/
    ├─ wiring.png / .svg    ← 연결도
    ├─ wiring.fzz           ← 프리칭 파일
    ├─ preview.gif          ← BPM별 시뮬레이션
-   └─ demo.jpg             ← 실제 동작 사진
+   └─ demo.mp4             ← 실제 동작 영상
 ```
